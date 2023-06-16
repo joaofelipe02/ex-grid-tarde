@@ -5,20 +5,23 @@
         
         
    
-        .grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-template-rows: 100px px;
+  gap: 10px;
   background-color: #2196F3;
-  padding: 200px;
+  padding: 10px;
 }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
-  
+
+ 
   
   
 
@@ -32,10 +35,6 @@
       gap: 20px 90px;
       align-content: center;
     }            
-
-
-
-
 
 
         body {
@@ -58,9 +57,19 @@
 
 
         }
-        
-        
 
+        .header {
+
+            grid-row-start: 4;
+            grid-row-end:5;
+        }
+
+        .navegacao {
+ grid-row-start: 4;
+            grid-row-end:5;
+            
+        }
+    
 
 
         
@@ -92,24 +101,25 @@
     </nav>
 
     <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-     
+        <div class="grid-item  ">1
+            God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de abril de 2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows.
+        </div>
+        <div class="grid-item " >2
+            The Last of Us é uma franquia de jogos eletrônicos de ação-aventura e survival horror exclusiva da PlayStation, criada por Neil Druckmann. A franquia é situada em um mundo pós-apocalíptico, com seres humanos hostis e criaturas canibais infectadas por uma mutação do fungo cordyceps.
+        </div>
+        <div class="grid-item header">3 
+            Elden Ring é um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka Miyazaki e o romancista de fantasia George R. R. Martin.
+        </div>
+        <div class="grid item navegacao">4 
+            Gran Turismo é uma popular e aclamada série de videojogos de corrida automóvel produzida pela Polyphony Digital, um estúdio que com o passar do tempo se dedicou a desenvolver basicamente somente este titulo.
+        </div>
+
+        </div>
+
+        <img src=""
+
 
         
-    
-        
-            
-       
-
-
-
-
-
-
-
-
-    </div>
 
     </body>
 </html>
