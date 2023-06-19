@@ -1,85 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <style>
-        
-        
-   
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 100px px;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
- 
-  
-  
-
-        .container-nav {
-      border: 0dvi;
-      margin-top: auto;
-      background-color: rgb(0, 0, 0);
-      text-align: center;
-      display: flex;
-      height: 50px;
-      gap: 20px 90px;
-      align-content: center;
-    }            
 
 
-        body {
-
-            background-color: rgb(1, 245, 9);
-        }
-
-        header {
-
-            background-color: rgb(0, 221, 255);
-            font-size: 50px;
-            text-align: center;
-        }
-
-       
-    
-        div {
-            font-size: 50px;
-
-
-
-        }
-
-        .header {
-
-            grid-row-start: 4;
-            grid-row-end:5;
-        }
-
-        .navegacao {
- grid-row-start: 4;
-            grid-row-end:5;
-            
-        }
-    
-
-
-        
-
-    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         jogos
@@ -89,37 +20,55 @@
 
     <nav class="solid">
         <ol class="container-nav">
-            <li> <a href="https://www.playstation.com/pt-br/?emcid=pa-ha-430499&gclid=CjwKCAjwhJukBhBPEiwAniIcNXMgKc7C9UGJrftDhCEut1srrBM0uCRilTvf-i510yXRed5yZN4ILxoCeVsQAvD_BwE">primeira empresa de jogos grandes
-                <li> <a href="https://www.xbox.com/pt-BR">segunda empresa grande de jogos
-                    <li> <a href="https://www.nintendo.com/pt-br/?L000-11:ch=pdpd">terceira empresa grande de jogos
-                    </ol>
-                    </nav>     
-                </a>       
-
-
+            <li> <a href="#imagem 1 ">imagem 1</a>
+            <li> <a href="#conteudo 1">conteudo 1</a>
+            <li> <a href="#rodape">rodape</a>
+        </ol>
+    </nav>
+    </a>
 
     </nav>
 
     <div class="grid-container">
-        <div class="grid-item  ">1
-            God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 20 de abril de 2018 para PlayStation 4 e em 14 de janeiro de 2022 para Microsoft Windows.
+        <div class="grid-item item1" id="conteudo 1">1
+           <p>God of War Ragnarök é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado
+            pela Sony Interactive Entertainment. Foi lançado em 9 de novembro de 2022 para PlayStation 4 e PlayStation
+            5. É o nono título da série God of War, o nono em ordem cronológica, e a sequência de God of War.</p> 
         </div>
-        <div class="grid-item " >2
-            The Last of Us é uma franquia de jogos eletrônicos de ação-aventura e survival horror exclusiva da PlayStation, criada por Neil Druckmann. A franquia é situada em um mundo pós-apocalíptico, com seres humanos hostis e criaturas canibais infectadas por uma mutação do fungo cordyceps.
+        <div class="grid-item item2">2
+           <p>The Last of Us é uma franquia de jogos eletrônicos de ação-aventura e survival horror exclusiva da
+            PlayStation, criada por Neil Druckmann. A franquia é situada em um mundo pós-apocalíptico, com seres humanos
+            hostis e criaturas canibais infectadas por uma mutação do fungo cordyceps.</p> 
         </div>
-        <div class="grid-item header">3 
-            Elden Ring é um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka Miyazaki e o romancista de fantasia George R. R. Martin.
+        <div class="grid-item header">3
+           <p> Elden Ring é um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela FromSoftware e
+            publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka
+            Miyazaki e o romancista de fantasia George R. R. Martin.</p>
         </div>
-        <div class="grid item navegacao">4 
-            Gran Turismo é uma popular e aclamada série de videojogos de corrida automóvel produzida pela Polyphony Digital, um estúdio que com o passar do tempo se dedicou a desenvolver basicamente somente este titulo.
+        <div class="grid item navegacao">4
+            <p>Gran Turismo é uma popular e aclamada série de videojogos de corrida automóvel produzida pela Polyphony
+                Digital, um estúdio que com o passar do tempo se dedicou a desenvolver basicamente somente este titulo.</p>
         </div>
+        <div class="imagem">
+            <img src="God_of_War_Ragnarök_capa.jpg" id="imagem 1">
+            <img src="The_Last_of_Us_capa.png">
+            <img src="Elden_Ring_capa.jpg">
+            <img src="Gran_Turismo_Sport_capa.png">
+        </img>
 
         </div>
+    </div>
+    <footer id="rodape">
+       <p>Os jogos mostrados anteriormente são da empresa de jogos Playstation, mas existem várias empresas grandes
+        como:
+        XBOX e nintendo. Essas são as maiores empresas produtoras de jogos eletrônicos do mundo, baseado em seu
+        valor de
+        mercado. Empresas não negociadas em bolsas estadunidenses, tiveram seu valor de mercado convertido para
+        Dólar
+        dos Estados Unidos. * Valve Corporation é uma empresa privadas, com capital social fechado.
+    </p>
+      
+    </footer>
+</body>
 
-        <img src=""
-
-
-        
-
-    </body>
 </html>
